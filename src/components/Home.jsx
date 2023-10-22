@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "reactstrap";
 import { AiFillEdit, AiFillEye } from "react-icons/ai";
-import { BiSolidTrashAlt } from "react-icons/Bi";
+import { BiSolidTrashAlt } from "react-icons/bi";
 import {  useNavigate } from "react-router-dom";
 
 const Home = ({usersData , getUsers}) => {
