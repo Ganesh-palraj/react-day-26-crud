@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+.sidebar {
+  background-color: rgba(14, 28, 36, 0.97);
+  min-height: 100dvh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-top: 60px;
+  color: rgb(255, 249, 249);
+}
+
+
+
+/* .addUserButton{
+  background-color: skyblue;
+} */
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  padding-bottom: 30px;
+}
+
+td{
+  padding-left: 1rem;
+}
+
+th{
+  padding-bottom: 1rem;
+}
+
+.main{
+ display: flex;
+ flex-direction: column;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ /* margin: 1rem; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+
+}
+
+/* .userTitle{
+  margin-right: 30rem;
+} */
+
+/* #icon{
+  width: 20px;
+} */
+
+#icon :hover{
+  cursor: pointer;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  width: 100%;
+}
+
+
+label{
+  font-size: larger;
+}
+
+Input {
+  /* width: 75%; */
+  margin-bottom: 1rem;
+}
+
+.main tr{
+  margin-bottom: 2rem;
+}
+
+.actionButton{
+  width: fit-content;
+  margin: 0.5rem;
+}
+
