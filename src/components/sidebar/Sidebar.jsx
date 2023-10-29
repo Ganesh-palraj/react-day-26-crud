@@ -16,9 +16,7 @@ const Sidebar = () => {
           <li>
             <Link to="/">Home</Link>
           </li>
-          <li>
-            <Link to="/action">Action</Link>
-          </li>
+          
         </ul>
         <Button color="primary" onClick={tabToggler} id="toggleButton">
           Toggle
